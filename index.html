@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idealnovate Web Development training Project 3 | Palindrome Checker</title>
+    <meta name="theme-color" content="#226293">
+    <link href='https://fonts.googleapis.com/css?family=Signika Negative' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div class="app">
+        <h1>Palindrome Checker</h1>
+        <hr>
+
+        <p>A <i>palindrome</i> is a word or sentence that's spelled the same way both forward and backward, ignoring
+            punctuation, case, and spacing. Examples are race car, mom, p$o$op etc</p>
+        <div class="search-box">
+            <input type="text" class="auto-type" id="inp-word" placeholder="Please input your word here" />
+            <button id="search-btn" onclick="checkPalindrome()">Search</button>
+        </div>
+
+        <p class="info-txt" id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

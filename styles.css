@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Signika Negative", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #226293;
+  color: white;
+}
+
+h1 {
+  color: #fc0;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+i {
+ font-weight: bold;
+ color: rgb(204, 163, 0);
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 1em;
+}
+
+hr {
+  color: #eee;
+}
+
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vmin;
+  padding: 10px 15px 50px 15px;
+  border-radius: 10px;
+  border: 6px solid #fc0;
+  background-color: #1b4f79;
+  -webkit-box-shadow: 0 0 2rem #00000080;
+  box-shadow: 0 0 2rem #00000080;
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+
+.search-box input {
+  padding: 5px;
+  width: 75%;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #cca300;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 15px 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 20%;
+  border-radius: 5px;
+  background: white;
+  transition: white 0.3s ease-out;
+}
+
+.search-box button:hover {
+  background: #fc0;
+}
+ 
+.info-txt {
+  margin-top: 1rem;
+  font-size: 20px;
+  text-align: center;
+}
+
+.user-input {
+color: #fc0;
+}
